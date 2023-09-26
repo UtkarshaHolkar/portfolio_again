@@ -33,18 +33,19 @@
     /* padding: auto; */
     /* border: 1rem; */
     font-size: 6rem;
-    color:white;
+    color:rgb(4, 0, 0);
     
   }
   .hero-section h2{
     /* padding: auto; */
     /* font-size: 6rem; */
     font-size: 4rem;
-    color:azure;
+    color:rgb(0, 0, 0);
   }
 
   .header .logo{
-    height: 3rem;
+    padding: auto;
+    height: 3.4rem;
   }
 
   .logo img{
@@ -64,7 +65,7 @@
         
   }
   .hero-section p{
-    color: rgb(148, 160, 164);
+    color: rgb(13, 71, 91);
     font-size:smaller;
     font-weight: 100;
     line-height: 3rem;
@@ -79,7 +80,7 @@
   }
 
 .navbar-list a{
-    color:azure;
+    color:rgb(0, 8, 8);
     font-size:xx-small;
     text-decoration: none;
 }
@@ -89,9 +90,9 @@
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: rgb(251, 251, 249);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(8, 8, 0);
     transition: all 0.3s;
 }
 
