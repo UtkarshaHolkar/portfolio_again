@@ -6,7 +6,6 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: "Lato";
-    color: rgb(211, 228, 234);
     text-decoration: none;
   }
   html{
@@ -22,46 +21,81 @@
     
   }
   .hero-section{
-    padding: 9rem 9rem;
+    padding: 17rem 17rem;
     margin: 6rem;
     height: 19rem;
     display: flex;
     font-size: large;
-
+    justify-content: space-between;
   }
 
-  .hero-section h1{
-    padding: 1rem;
-    border: 1rem;
-    font-size: 8rem;
-  }
   .hero-section h3{
-    padding: auto;
+    /* padding: auto; */
+    /* border: 1rem; */
     font-size: 6rem;
+    color:white;
+    
+  }
+  .hero-section h2{
+    /* padding: auto; */
+    /* font-size: 6rem; */
+    font-size: 4rem;
+    color:azure;
   }
 
   .header .logo{
     height: 3rem;
   }
 
-  .hero-section img{
-    padding:1rem;
-    margin:1rem;
-    right: 78rem;
-    left: 67rem;
+  .logo img{
+    /* width: 10rem; */
+    /* padding:2rem;
+    margin:auto;
+     */
+    /* display: inline-block; */
     height: 45rem;
+    top: -12rem;
+    position: relative;
+  }
+  .logo{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        
   }
   .hero-section p{
-    color: rgb(156, 224, 243);
-    
+    color: rgb(148, 160, 164);
+    font-size:smaller;
+    font-weight: 100;
+    line-height: 3rem;
   }
 
   .navbar-list{
     display: flex;
     gap: 4.5rem;
-    color: white;
     list-style: none;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
+.navbar-list a{
+    color:azure;
+    font-size:xx-small;
+    text-decoration: none;
+}
+
+.navbar-list a:link,
+.navbar-list a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(251, 251, 249);
+    transition: all 0.3s;
+}
+
+.navbar-list a:active,
+.navbar-list a:hover{
+    color:rgb(109, 204, 251);
+}
