@@ -78,7 +78,7 @@
   }
 
 .navbar-list a{
-    color:rgb(0, 8, 8);
+    color:rgb(65, 84, 188);
     font-size:xx-small;
     text-decoration: none;
 }
@@ -96,7 +96,8 @@
 
 .navbar-list a:active,
 .navbar-list a:hover{
-    color:rgb(109, 204, 251);
+    color:rgb(65, 84, 188);
+    font-weight: 700;
 }
 
 
@@ -139,4 +140,17 @@
 .about-section span{
   font-weight: 600;
   color:rgb(44, 23, 139);
+}
+
+.hero-section button{
+  
+  padding: 1rem 2rem;
+  background-color: rgba(28, 22, 78, 0.886);
+  color: white;
+  font-weight: 500;
+  font-size:medium;
+  border-radius: 5px;
+  border-color: rgba(28, 22, 78, 0.886);
+  cursor: pointer;
+  
 }
